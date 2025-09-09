@@ -48,7 +48,7 @@ st.markdown("""
 
 # * IMPORTANT: Add your Gemini API key here *
 # This will be used for all users and won't be visible in the UI
-GEMINI_API_KEY = "AIzaSyCPkFBH3RDZCUSZrpmtvm1RO-F4lFZ8vNg"  # Your API key
+GEMINI_API_KEY = "AIzaSyC***************************"  # Your API key
 
 # App header
 st.markdown('<div class="header-container"><h1>🥗 Recipies That Care!</h1></div>', unsafe_allow_html=True)
@@ -317,4 +317,5 @@ else:
 # Footer
 st.markdown("---")
 st.markdown("💡 *Tip:* The recipes are AI-generated based on your BMI and health goals!")
+
 st.markdown("⚠️ *Disclaimer:* This app provides general recipe suggestions and is not a substitute for professional dietary advice.")
